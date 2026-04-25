@@ -134,6 +134,16 @@ contract-cleaner/
 python -m unittest discover tests/
 ```
 
+## 联系合作 / Contact
+
+如果你在使用中遇到问题、有功能建议，或者希望合作开发，欢迎通过以下方式联系：
+
+![联系二维码](assets/contact-qr.jpg)
+
+> 💡 扫描上方二维码，备注「contract-cleaner」，可加入交流群或直接与我取得联系。
+
+---
+
 ## 开源协议 / License
 
 Apache License 2.0
