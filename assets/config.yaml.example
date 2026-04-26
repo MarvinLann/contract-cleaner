@@ -9,6 +9,6 @@ api_version: "2023-06-01"
 
 # Alternative: DeepSeek
 # provider: deepseek
-# model: deepseek-chat
+# model: deepseek-v4-pro
 # api_key: your-deepseek-key-here
 # base_url: https://api.deepseek.com

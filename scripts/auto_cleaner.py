@@ -171,7 +171,7 @@ def load_api_config() -> APIConfig:
         config.api_key = os.getenv("DEEPSEEK_API_KEY")
         config.base_url = "https://api.deepseek.com"
         config.api_version = None
-        config.model = "deepseek-chat"
+        config.model = "deepseek-v4-pro"
         logger.info("使用环境变量 DEEPSEEK_API_KEY")
     
     return config
@@ -201,7 +201,7 @@ def prompt_for_config() -> APIConfig:
         config.provider = "deepseek"
         config.base_url = "https://api.deepseek.com"
         config.api_version = None
-        config.model = "deepseek-chat"
+        config.model = "deepseek-v4-pro"
         config.api_key = input("请输入 DeepSeek API Key: ").strip()
         
     elif choice == "3":
